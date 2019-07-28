@@ -1,6 +1,6 @@
 ASENKRON FONKSİYONLAR (Asynchronous Functions)
 
-Öncelikle kısaca olayı hikayeleştirmek istiyorum. Örneğin elimizde kod blokları mevcut. Bu kodu çalıştırarak console ekranında gerekli değerlerin gelmesini istemekteyiz. 
+Örneğin elimizde kod blokları mevcut. Bu kodu çalıştırarak console ekranında gerekli değerlerin gelmesini istemekteyiz. 
 Fakat önemli bir sorunumuz var ki, olayın içerisinde veri tabanı ya da Digital Ocean gibi sunucu da bulunabilmekte. Demem o ki, bazı zamanlar saniyeler içerisinde bu sunucudan ya da veri tabanından veri gelmekte zorlanabilir.
 Arka planda çalışan işlemlerden dolayı gecikmeler mevcut olabiliyor. Bir blog sitesi düşünelim. Blog sitesinde bulunan header, sidebar ve footer gibi içeriklerin gelmesi static olacağından hızlı olurken content gibi dinamik olan blokların gelmesi söylediğim sebeplerden ötürü zaman alabilmektedir. Peki sizce bu blogtaki fonksiyonlar sırasıyla birbirini bekleyebilir mi ? 
 Tabiki bu fonksiyonlar birbirinden bağımsız hareket edeceklerdir. İşte asenkron fonksiyonlar da sıradan bağımsız bir şekilde çalışmaktadır. 
